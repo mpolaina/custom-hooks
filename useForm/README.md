@@ -1,7 +1,7 @@
 # useForm Hook
 
 Ejemplo de uso:
-```
+```js
 const initialForm = {
   name: '',
   age: 0
