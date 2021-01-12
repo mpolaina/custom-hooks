@@ -23,5 +23,5 @@ Con su state
 const [values, setValues] = useState(initialState)
 ```
 Y dos funciones: 
-*handleInputChange
-*reset
+* handleInputChange
+* reset
