@@ -2,15 +2,13 @@
 
 Repositorio con custom hooks de React para reutilizar
 
-## Hooks
-
-### useCounter
+## useCounter
 Contador con state y 3 funciones:
 * Increment
 * Decrement
 * Reset
 
-### useFetch
+## useFetch
 Hook para hacer peticiones Fetch con:
 * State
 ```
@@ -19,9 +17,11 @@ const [state, setState] = useState({ data: null, loading: true, error: null })
 * useEffect
 Para ejecutar el **setState** y hacer la **petición fetch**
 
-### useForm
+## useForm
 Con su state 
 ```
 const [values, setValues] = useState(initialState)
 ```
-Y dos funciones **handleInputChange** y **reset**.
+Y dos funciones: 
+*handleInputChange
+*reset
