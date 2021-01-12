@@ -11,7 +11,7 @@ Contador con state y 3 funciones:
 ## useFetch
 Hook para hacer peticiones Fetch con:
 * State
-```
+```js
 const [state, setState] = useState({ data: null, loading: true, error: null })
 ```
 * useEffect
@@ -19,7 +19,7 @@ Para ejecutar el **setState** y hacer la **petición fetch**
 
 ## useForm
 Con su state 
-```
+```js
 const [values, setValues] = useState(initialState)
 ```
 Y dos funciones: 
